@@ -12,14 +12,14 @@ Config.Webhook = 'https://discord.com/api/webhooks/1233778143102242826/_ciZRUyR6
 
 Config.Locales = {
     notify = {
-        noMessage = 'Du använde kommandot fel. Användning: /report [message]',
-        reportSend = 'Din report har skickats in, en staff kommer att hjälpa dig inom kort.',
-        cooldown = 'Du måste vänta 10 sekunder innan du kan skicka in en ny report!'
+        noMessage = 'You used the command incorrectly. Usage: /report [message]',
+        reportSend = 'Your report has been submitted, a staff member will assist you shortly.',
+        cooldown = 'You must wait 10 seconds before you can submit a new report!'
     },
 
     chat = {
-        noMessage = '~r~Du använde kommandot fel. Användning: /report [message]',
-        reportSend = '~g~Din report har skickats in, en staff kommer att hjälpa dig inom kort.',
-        cooldown = '~y~Du måste vänta 10 sekunder innan du kan skicka in en ny report!'
+        noMessage = '~r~You used the command incorrectly. Usage: /report [message]',
+        reportSend = '~g~Your report has been submitted, a staff member will assist you shortly.',
+        cooldown = '~y~You must wait 10 seconds before you can submit a new report!'
     }
 }

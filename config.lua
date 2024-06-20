@@ -8,7 +8,7 @@ Config.UseNotify = true
 Config.NotifyTime = 5
 
 -- Discord webhook link for the report logs
-Config.Webhook = 'https://discord.com/api/webhooks/1233778143102242826/_ciZRUyR6ryR6YXlg8cdjgxOi1bD96BmWlRvnOhJUoaZJman-lQT5KaC6DiYlUJ1X3j8'
+Config.Webhook = ''
 
 Config.Locales = {
     notify = {

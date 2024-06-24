@@ -7,6 +7,9 @@ Config.UseNotify = true
 -- How long the notification will be shown (in seconds)
 Config.NotifyTime = 5
 
+-- How long the cooldown time will be (in seconds)
+Config.CooldownTime = 10
+
 -- Discord webhook link for the report logs
 Config.Webhook = ''
 

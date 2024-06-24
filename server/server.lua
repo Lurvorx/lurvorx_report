@@ -34,10 +34,10 @@ RegisterCommand('report', function(source, args)
         return
     end
 
-    if cooldown ~= nil and (GetGameTimer() - cooldown) < 10 * 1000 and Config.UseNotify == true then
+    if cooldown ~= nil and (GetGameTimer() - cooldown) < Config.CooldownTime * 1000 and Config.UseNotify == true then
 		TriggerClientEvent('esx:showNotification', source, Config.Locales.notify.cooldown, 'error', Config.NotifyTime * 1000)
 		return
-    elseif cooldown ~= nil and (GetGameTimer() - cooldown) < 10 * 1000 and Config.UseNotify == false then
+    elseif cooldown ~= nil and (GetGameTimer() - cooldown) < Config.CooldownTime * 1000 and Config.UseNotify == false then
         TriggerClientEvent('chat:addMessage', source, { args = {Config.Locales.chat.cooldown}})
         return
 	end

@@ -1,5 +1,9 @@
 Config = {}
 
+-- Your framework you are gonna use.
+-- Options: esx, qb
+Config.Framework = "esx"
+
 -- If you want notification or chat.
 -- true = notify  |  false = chat
 Config.UseNotify = true
@@ -11,13 +15,17 @@ Config.NotificationTime = 5
 Config.CooldownTime = 10
 
 -- All the groups that will recive the report message.
+-- ONLY WORKS FOR ESX
 Config.Groups = {
     "admin",
     "superadmin"
 }
 
 -- Your discord webhook for the report logs.
-Config.Webhook = 'https://discord.com/api/webhooks/1233569487039496235/OOqCOpIodCEcBBsqdXOqP7lwJPMiKBUtwx__VGHmZOBFXfE5VY_RNJNu8LS7vIF4Mtc-'
+Config.Webhook = {
+    useWebhook = false,
+    webhook = ""
+}
 
 -- Config the language you want to use.
 Config.Strings = {

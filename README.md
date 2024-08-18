@@ -7,7 +7,7 @@ If you need support or have questions, join [Lurvorx Scripts](https://discord.gg
 ---------------------------------------------------------------------------------------------------------------------------
 Framework compatible:
 - ESX Legacy
-- More frameworks coming soon!
+- QB-Core
 
 Here is the [preview - COMING SOON!]()
 

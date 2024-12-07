@@ -35,7 +35,7 @@ function table.contains(table, element)
 end
 
 RegisterCommand('report', function(source, args)
-    local Players = GetPlayers()
+    local xPlayers = ESX.GetExtendedPlayers()
     local playerName = GetPlayerName(source)
     local message = table.concat(args, ' ')
     local reportMessage = '~y~(' .. playerName .. ' - ' .. source .. ')~w~ ' .. message
@@ -94,7 +94,7 @@ RegisterCommand('report', function(source, args)
         for _, xPlayer in pairs(xPlayers) do
             local xPlayerGroup = xPlayer.getGroup()
             if table.contains(Config.Groups, xPlayerGroup) then
-                TriggerClientEvent('chat:addMessage', xPlayer.source, { args = {'~r~REPORT', reportMessage}})
+                TriggerClientEvent('chat:addMessage', xPlayer.source, { args = {'~r~REPORT: ', reportMessage}})
             end
         end
     end
@@ -116,7 +116,7 @@ RegisterCommand('report', function(source, args)
         local admins = getAdmins();
     
         for _, v in pairs(admins) do
-            TriggerClientEvent('chat:addMessage', v, { args = { '~r~REPORT', reportMessage } })
+            TriggerClientEvent('chat:addMessage', v, { args = { '~r~REPORT: ', reportMessage } })
         end
     end
 
@@ -147,8 +147,4 @@ RegisterCommand('report', function(source, args)
     end
 
     cooldown = GetGameTimer()
-end)
-
-RegisterCommand('test', function(source, args)
-    TriggerClientEvent("test:event", source, "Hello from server")
 end)

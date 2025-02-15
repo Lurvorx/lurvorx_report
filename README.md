@@ -2,7 +2,7 @@
 lurvorx_report is a simple and basic script made by Lurvorx Scripts. This FiveM script is highly configurable and simple to use.
 If you need any support with the script, please join this discord server and open a support ticket and a staff will help you.
 
-If you need support or have questions, join [Lurvorx Scripts](https://discord.gg/jJnE7yTYZW) discord server!
+If you need support or have questions, join [Lurvorx Scripts](https://discord.gg/Tzzsh8zVyQ) discord server!
 
 ---------------------------------------------------------------------------------------------------------------------------
 Framework compatible:
